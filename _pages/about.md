@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a third year undergraduate student from [School of EECS](https://eecs.pku.edu.cn/), [Peking University](https://www.pku.edu.cn/). My research interest includes computer vision, computer graphics, machine learning, and computational photography.
+I'm a Senior undergraduate student from [School of Geodesy and Geomatics](http://main.sgg.whu.edu.cn/), [Wuhan University](https://www.whu.edu.cn/). My research interest includes computer vision, machine learning, and natural language processing.
 
 
 
