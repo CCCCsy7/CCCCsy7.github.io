@@ -11,13 +11,12 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Geodesy and Geomatics Engineering, Wuhan University, 2020-2024
+* Exchanged in University of California, Berkeley, 2023.1-2023.5
 
-Work experience
+Research experience
 ======
-* Summer 2015: Research Assistant
+* Summer 2023: Research Assistant
   * Github University
   * Duties included: Tagging issues
   * Supervisor: Professor Git
