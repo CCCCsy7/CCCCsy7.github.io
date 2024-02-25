@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Senior undergraduate student from [School of Geodesy and Geomatics](http://main.sgg.whu.edu.cn/), [Wuhan University](https://www.whu.edu.cn/) and also an exchange student in [Univerisy of California, Berkeley](https://www.berkeley.edu) in 23Spring. My research interest includes computer vision and natural language processing.
+I'm a Senior undergraduate student from [School of Geodesy and Geomatics](http://main.sgg.whu.edu.cn/), [Wuhan University](https://www.whu.edu.cn/) and also an exchange student in [Univerisy of California, Berkeley](https://www.berkeley.edu) in 2023 Spring. My research interest includes computer vision and natural language processing.
 
 
 
