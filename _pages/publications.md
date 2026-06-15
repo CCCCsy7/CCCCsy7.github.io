@@ -10,5 +10,3 @@ author_profile: true
 {% endif %}
 
 {% include base_path %}
-
-I am working on this section. Selected publications and manuscripts will be added here.
