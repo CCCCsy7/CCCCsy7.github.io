@@ -8,7 +8,8 @@ author_profile: true
 ## Preprints & Workshop Papers
 
 **ContextLeak: Auditing Leakage in Private In-Context Learning Methods**  
-Jacob Choi, Shuying Cao, Xingjian Dong, Wang Bill Zhu, Robin Jia, and Sai Praneeth Karimireddy  
+Jacob Choi*, Shuying Cao*, Xingjian Dong*, Wang Bill Zhu, Robin Jia, and Sai Praneeth Karimireddy  
+*Equal contribution*  
 *arXiv preprint arXiv:2512.16059; ACL 2025 L2M2 Workshop*  
 [arXiv](https://arxiv.org/abs/2512.16059)
 
