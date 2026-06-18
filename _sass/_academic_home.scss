@@ -363,7 +363,7 @@
 
 .academic-pub-card {
   display: grid;
-  grid-template-columns: 180px minmax(0, 1fr);
+  grid-template-columns: 260px minmax(0, 1fr);
   gap: 1.5rem;
   padding: 1.25rem;
 }
@@ -373,8 +373,16 @@
   align-items: center;
   justify-content: center;
   min-height: 150px;
+  overflow: hidden;
   border-radius: 6px;
-  background: linear-gradient(135deg, #d8f3ee, #f4d6c4);
+  background: #fff;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0.4rem;
+  }
 
   span {
     color: var(--academic-accent);

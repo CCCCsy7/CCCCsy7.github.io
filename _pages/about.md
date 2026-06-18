@@ -105,7 +105,7 @@ redirect_from:
     <p class="academic-note">* = equal contribution.</p>
     <article class="academic-pub-card">
       <div class="academic-pub-thumb">
-        <span>ContextLeak</span>
+        <img src="{{ '/images/contextleak-overview.png' | relative_url }}" alt="ContextLeak overview figure">
       </div>
       <div>
         <h3>ContextLeak: Auditing Leakage in Private In-Context Learning Methods</h3>
