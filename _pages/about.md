@@ -62,10 +62,10 @@ redirect_from:
         <strong>Prof. Michael Zeineh</strong>.
       </p>
       <p>
-        My research focuses on trustworthy and human-centered AI, with interests in privacy auditing for large language models,
-        diversity in language model generation, LLM persona, and medical AI agents. I am broadly interested in understanding
-        how AI systems behave in real-world settings and building methods to make them more reliable, private, and aligned
-        with human needs.
+        My research studies foundation models beyond benchmark correctness, focusing on how they infer user intent,
+        expose or protect private context, and choose among multiple valid responses in real-world settings. I develop
+        empirical auditing and evaluation methods for trustworthy and human-centered AI, with applications in
+        privacy-preserving in-context learning, LLM generation behavior, persona systems, and medical AI agents.
       </p>
       <p>
         Previously, I received my B.Eng. in Geodesy and Geomatics Engineering from
@@ -79,15 +79,15 @@ redirect_from:
     <div class="academic-interest-grid">
       <article>
         <h3>Trustworthy LLMs</h3>
-        <p>Privacy auditing, leakage evaluation, and reliability under real deployment conditions.</p>
+        <p>Privacy auditing, leakage evaluation, and reliability under deployment constraints.</p>
       </article>
       <article>
-        <h3>LLM Diversity</h3>
-        <p>Understanding why generation collapses and how models choose among multiple valid outputs.</p>
+        <h3>LLM Behavior &amp; Diversity</h3>
+        <p>Understanding how models choose among multiple valid outputs, and why generation collapses.</p>
       </article>
       <article>
         <h3>Human-Centered AI</h3>
-        <p>Persona systems, medical AI agents, and AI behavior aligned with human needs.</p>
+        <p>Studying intent, persona, and medical AI agents in human-facing settings.</p>
       </article>
     </div>
   </section>
