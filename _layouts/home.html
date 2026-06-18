@@ -1,0 +1,41 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="academic-home-body">
+    {% include browser-upgrade.html %}
+
+    <header class="academic-nav" role="banner">
+      <a class="academic-wordmark" href="{{ base_path }}/">
+        <span class="academic-wordmark__name">{{ site.author.name | default: site.name }}</span>
+        <span class="academic-wordmark__sub">Computer Science</span>
+      </a>
+      <nav class="academic-nav__links" aria-label="Primary navigation">
+        <a href="{{ base_path }}/#about">About</a>
+        <a href="{{ base_path }}/#news">News</a>
+        <a href="{{ base_path }}/#publications">Publications</a>
+        <a href="{{ base_path }}/#projects">Projects</a>
+        <a href="{{ base_path }}/#experience">Experience</a>
+        <a href="{{ base_path }}/cv/">CV</a>
+      </nav>
+    </header>
+
+    {{ content }}
+
+    <footer class="academic-footer">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name | default: site.name }}</p>
+      <p>Built with Jekyll</p>
+    </footer>
+
+    {% include scripts.html %}
+  </body>
+</html>
