@@ -20,8 +20,8 @@ redirect_from:
         <span>Situated Reliability</span>.
       </h1>
       <p class="academic-tagline">
-        Benchmarks test what models can answer; my work studies what happens when people rely on them - whether they
-        understand intent, preserve privacy, and make contextually reliable choices.
+        Benchmarks test what models can answer; my work studies how foundation models behave in real contexts - how they
+        infer intent, protect private information, and make reliable choices among valid options.
       </p>
       <div class="academic-schools" aria-label="Education">
         <div class="academic-school">
