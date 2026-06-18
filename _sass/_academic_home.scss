@@ -241,10 +241,11 @@
     margin: 0.9rem 0 0;
     color: var(--academic-muted);
     font-family: "JetBrains Mono", $monospace;
-    font-size: 0.75rem;
+    font-size: 0.68rem;
 
     span {
       display: block;
+      white-space: nowrap;
     }
   }
 }
@@ -525,6 +526,10 @@
 
   .academic-tagline {
     font-size: 1em;
+  }
+
+  .academic-hero__media p span {
+    white-space: normal;
   }
 
   .academic-news li,
