@@ -1,8 +1,8 @@
 ---
 layout: home
 permalink: /
-title: "Shuying Cao"
-excerpt: "Academic homepage"
+title: "Shuying Cao's Homepage"
+excerpt: "Shuying Cao is a Computer Science M.S. student at USC and Visiting Student Researcher at Stanford, studying trustworthy and human-centered AI."
 author_profile: false
 redirect_from:
   - /about/

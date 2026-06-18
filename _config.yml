@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Shuying Cao's Homepage"
+title                    : "Shuying Cao"
 title_separator          : "-"
 name                     : &name "Shuying Cao"
-description              : &description "Computer Science Master's student at the University of Southern California"
-url                      : https://CCCCsy7.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Shuying Cao is a Computer Science M.S. student at USC and Visiting Student Researcher at Stanford, studying trustworthy and human-centered AI."
+url                      : https://ccccsy7.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "CCCCsy7/CCCCsy7.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -62,13 +62,15 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "profile-preview.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : "Person" # Person or Organization (defaults to Person)
+  name                   : "Shuying Cao" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://github.com/CCCCsy7"
+    - "https://www.linkedin.com/in/shuying-cao-0ab112234"
 
 
 # Analytics
@@ -81,8 +83,8 @@ analytics:
 # Site Author
 author:
   name             : "Shuying Cao"
-  avatar           : "profile.png"
-  bio              : "M.S. Computer Science student at USC"
+  avatar           : "profile-preview.png"
+  bio              : "M.S. Computer Science student at USC and Visiting Student Researcher at Stanford"
   location         : "Palo Alto, CA"
   employer         :
   pubmed           :
