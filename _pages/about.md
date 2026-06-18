@@ -14,16 +14,14 @@ redirect_from:
     <div class="academic-hero__text">
       <p class="academic-eyebrow">Shuying Cao</p>
       <h1>
-        At the intersection of
-        <span>Trustworthy AI</span>,
-        <span>Privacy Auditing</span>,
-        <span>LLM Behavior</span>, and
-        <span>Human-Centered AI</span>.
+        From
+        <span>General Capability</span>
+        to
+        <span>Situated Reliability</span>.
       </h1>
       <p class="academic-tagline">
-        M.S. student in <strong>Computer Science</strong> at the
-        <strong>University of Southern California</strong> and Visiting Student Researcher at
-        <strong>Stanford University</strong>.
+        Benchmarks test what models can answer; my work studies what happens when people rely on them - whether they
+        understand intent, preserve privacy, and make contextually reliable choices.
       </p>
       <div class="academic-schools" aria-label="Education">
         <div class="academic-school">
