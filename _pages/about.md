@@ -151,21 +151,21 @@ redirect_from:
           <h3>Stanford University</h3>
           <p>Visiting Student Researcher</p>
         </div>
-        <span>Jun 2026 - Present</span>
+        <span>June 2026 - Present</span>
       </article>
       <article>
         <div>
           <h3>University of Southern California</h3>
           <p>M.S. Computer Science</p>
         </div>
-        <span>2024 - Present</span>
+        <span>Sept 2024 - Dec 2026</span>
       </article>
       <article>
         <div>
           <h3>UC Berkeley</h3>
           <p>Visiting student; visual-capable chatbot systems based on instruction-tuned language models.</p>
         </div>
-        <span>Previous</span>
+        <span>Jan 2023 - July 2023</span>
       </article>
     </div>
   </section>
@@ -178,14 +178,14 @@ redirect_from:
           <h3>University of Southern California</h3>
           <p>M.S. in Computer Science</p>
         </div>
-        <span>Present</span>
+        <span>Sept 2024 - Dec 2026</span>
       </article>
       <article>
         <div>
           <h3>Wuhan University</h3>
           <p>B.Eng. in Geodesy and Geomatics Engineering</p>
         </div>
-        <span>Previous</span>
+        <span>Sept 2020 - June 2024</span>
       </article>
     </div>
   </section>
