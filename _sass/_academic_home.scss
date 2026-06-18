@@ -242,6 +242,10 @@
     color: var(--academic-muted);
     font-family: "JetBrains Mono", $monospace;
     font-size: 0.75rem;
+
+    span {
+      display: block;
+    }
   }
 }
 

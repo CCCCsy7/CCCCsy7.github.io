@@ -47,7 +47,10 @@ redirect_from:
       <div class="academic-portrait">
         <img src="{{ '/images/profile-preview.png' | relative_url }}" alt="Shuying Cao">
       </div>
-      <p>Stanford, CA | shuyingc@stanford.edu</p>
+      <p>
+        <span>Visiting Student Researcher, Stanford University</span>
+        <span>Stanford, CA | shuyingc@stanford.edu</span>
+      </p>
     </div>
   </section>
 
