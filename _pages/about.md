@@ -58,8 +58,10 @@ redirect_from:
     <div class="academic-prose">
       <p>
         I am a M.S. student in Computer Science at the
-        <a href="https://www.usc.edu/">University of Southern California</a> and a Visiting Student Researcher at
-        <a href="https://www.stanford.edu/">Stanford University</a>.
+        <a href="https://www.usc.edu/">University of Southern California</a>, advised by
+        <strong>Prof. Sai Praneeth Karimireddy</strong>, and a Visiting Student Researcher at
+        <a href="https://www.stanford.edu/">Stanford University</a>, advised by
+        <strong>Prof. Michael Zeineh</strong>.
       </p>
       <p>
         My research focuses on trustworthy and human-centered AI, with interests in privacy auditing for large language models,
@@ -69,9 +71,11 @@ redirect_from:
       </p>
       <p>
         Previously, I received my B.Eng. in Geodesy and Geomatics Engineering from
-        <a href="https://www.whu.edu.cn/">Wuhan University</a>. I was also a visiting student at
-        <a href="https://www.berkeley.edu/">UC Berkeley</a>, where I worked on visual-capable chatbot systems based on
-        instruction-tuned language models.
+        <a href="https://www.whu.edu.cn/">Wuhan University</a>, advised by
+        <strong>Prof. Zhenzhong Chen</strong>. I was also a visiting student at
+        <a href="https://www.berkeley.edu/">UC Berkeley</a>, where I worked with
+        <strong>Prof. Joseph E. Gonzalez</strong> and his former Ph.D. student
+        <strong>Tianjun Zhang</strong> on visual-capable chatbot systems based on instruction-tuned language models.
       </p>
     </div>
     <div class="academic-interest-grid">
