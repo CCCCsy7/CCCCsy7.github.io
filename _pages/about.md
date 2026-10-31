@@ -27,8 +27,6 @@ redirect_from:
       <div class="academic-actions">
         <a class="academic-cv" href="{{ '/files/Shuying_Cao_CV.pdf' | relative_url }}">Curriculum Vitae &rarr;</a>
         <div class="academic-socials">
-          <a href="mailto:shuyingc@stanford.edu" aria-label="Stanford email">Email (Stanford)</a>
-          <a href="mailto:shuyingcao7@gmail.com" aria-label="Gmail">Email (Gmail)</a>
           <a href="https://scholar.google.com/citations?user=36r5lAkAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
           <a href="https://github.com/CCCCsy7" target="_blank" rel="noopener noreferrer">GitHub</a>
           <a href="https://www.linkedin.com/in/shuying-cao-0ab112234" target="_blank" rel="noopener noreferrer">LinkedIn</a>
@@ -42,7 +40,8 @@ redirect_from:
       </div>
       <p>
         <span>Visiting Student Researcher, Stanford University</span>
-        <span>Stanford, CA | shuyingc@stanford.edu</span>
+        <span>Stanford, CA | <a href="mailto:shuyingc@stanford.edu">shuyingc@stanford.edu</a></span>
+        <span><a href="mailto:shuyingcao7@gmail.com">shuyingcao7@gmail.com</a></span>
       </p>
     </div>
   </section>
