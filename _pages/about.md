@@ -194,33 +194,6 @@ redirect_from:
     </div>
   </section>
 
-  <section class="academic-section" id="experience">
-    <h2>Experience</h2>
-    <div class="academic-timeline">
-      <article>
-        <div>
-          <h3>Stanford University</h3>
-          <p>Visiting Student Researcher</p>
-        </div>
-        <span>June 2026 - Present</span>
-      </article>
-      <article>
-        <div>
-          <h3>University of Southern California</h3>
-          <p>M.S. Computer Science</p>
-        </div>
-        <span>Sept 2024 - Dec 2026</span>
-      </article>
-      <article>
-        <div>
-          <h3>UC Berkeley</h3>
-          <p>Visiting student; visual-capable chatbot systems based on instruction-tuned language models.</p>
-        </div>
-        <span>Jan 2023 - July 2023</span>
-      </article>
-    </div>
-  </section>
-
   <section class="academic-section">
     <h2>Skills</h2>
     <div class="academic-skill-grid">
