@@ -39,8 +39,9 @@ redirect_from:
         <img src="{{ '/images/profile-preview.png' | relative_url }}" alt="Shuying Cao">
       </div>
       <p>
-        <span>Visiting Student Researcher, Stanford University</span>
-        <span>Stanford, CA | <a href="mailto:shuyingc@stanford.edu">shuyingc@stanford.edu</a></span>
+        <span>Student Research Assistant and Visiting Student</span>
+        <span>Stanford University</span>
+        <span><a href="mailto:shuyingc@stanford.edu">shuyingc@stanford.edu</a></span>
         <span><a href="mailto:shuyingcao7@gmail.com">shuyingcao7@gmail.com</a></span>
       </p>
     </div>
@@ -50,39 +51,46 @@ redirect_from:
     <h2>About</h2>
     <div class="academic-prose">
       <p>
-        I am a M.S. student in Computer Science at the
-        <a href="https://www.usc.edu/">University of Southern California</a>, advised by
-        <strong>Prof. Sai Praneeth Karimireddy</strong>, and a Visiting Student Researcher at
-        <a href="https://www.stanford.edu/">Stanford University</a>, advised by
-        <strong>Prof. Michael Zeineh</strong>.
+        I am an M.S. student in Computer Science at the University of Southern California, where I work with
+        <a href="https://spkreddy.org/" target="_blank" rel="noopener noreferrer"><strong>Prof. Sai Praneeth Karimireddy</strong></a>
+        on auditing privacy in LLM systems. I am also a Student Research Assistant and Visiting Student at Stanford
+        University, advised by
+        <a href="https://profiles.stanford.edu/michael-zeineh" target="_blank" rel="noopener noreferrer"><strong>Prof. Michael Zeineh</strong></a>
+        and in collaboration with
+        <a href="https://yejinc.github.io/" target="_blank" rel="noopener noreferrer"><strong>Prof. Yejin Choi</strong></a>,
+        and a core contributor to Agents' Last Exam v2 at Berkeley AI Research.
       </p>
       <p>
-        My research studies foundation models beyond benchmark correctness, focusing on how they infer user intent,
-        expose or protect private context, and choose among multiple valid responses in real-world settings. I develop
-        empirical auditing and evaluation methods for trustworthy and human-centered AI, with applications in
-        privacy-preserving in-context learning, LLM generation behavior, persona systems, and medical AI agents.
+        My research asks what it takes for foundation models to be reliable once they act as agents in real
+        environments. I build agents that complete long-horizon tasks end to end, such as NeuroImAgent, which runs
+        full neuroimaging pipelines on raw MRI and improves itself through a memory graph linking past protocols,
+        decisions, tool calls, and outcomes. I build evaluations that measure whether agents actually succeed on such
+        tasks, including an executable, auto-graded benchmark of real scientific work. And I audit whether models
+        protect the private context they are given, as in ContextLeak, a black-box framework that turns auditor
+        accuracy into an empirical lower bound on privacy leakage.
       </p>
       <p>
-        Previously, I received my B.Eng. in Geodesy and Geomatics Engineering from
-        <a href="https://www.whu.edu.cn/">Wuhan University</a>, advised by
-        <strong>Prof. Zhenzhong Chen</strong>. I was also a visiting student at
-        <a href="https://www.berkeley.edu/">UC Berkeley</a>, where I worked with
-        <strong>Prof. Joseph E. Gonzalez</strong> and his former Ph.D. student
-        <strong>Tianjun Zhang</strong> on visual-capable chatbot systems based on instruction-tuned language models.
+        Previously, I received my B.E. in Geodesy and Geomatics Engineering from Wuhan University, advised by
+        <a href="https://zhenzhong-chen.github.io/" target="_blank" rel="noopener noreferrer"><strong>Prof. Zhenzhong Chen</strong></a>,
+        and was a visiting student at UC Berkeley's SKY Lab, where I worked with
+        <a href="https://people.eecs.berkeley.edu/~jegonzal/" target="_blank" rel="noopener noreferrer"><strong>Prof. Joseph E. Gonzalez</strong></a>
+        and
+        <a href="https://tianjunz.github.io/" target="_blank" rel="noopener noreferrer"><strong>Tianjun Zhang</strong></a>
+        on vision-language assistants for reading figures in research papers.
       </p>
     </div>
     <div class="academic-interest-grid">
       <article>
-        <h3>Trustworthy LLMs</h3>
-        <p>Privacy auditing, leakage evaluation, and reliability under deployment constraints.</p>
+        <h3>LLM Agents &amp; Long-Horizon Tasks</h3>
+        <p>Agents that plan, call tools, and finish multi-step workflows end to end in executable environments.</p>
       </article>
       <article>
-        <h3>LLM Behavior &amp; Diversity</h3>
-        <p>Understanding how models choose among multiple valid outputs, and why generation collapses.</p>
+        <h3>Recursive Self-Improvement</h3>
+        <p>Memory graphs and reusable skills that let an agent learn from its own past cases without losing reliability.</p>
       </article>
       <article>
-        <h3>Human-Centered AI</h3>
-        <p>Studying intent, persona, and medical AI agents in human-facing settings.</p>
+        <h3>Trustworthy AI &amp; Privacy Auditing</h3>
+        <p>Black-box auditing of what models leak from private context, and how empirical leakage compares to theoretical guarantees.</p>
       </article>
     </div>
   </section>
@@ -93,7 +101,7 @@ redirect_from:
       <article>
         <div>
           <h3>Stanford University</h3>
-          <p>Research Assistant &amp; Visiting Student</p>
+          <p>Student Research Assistant &amp; Visiting Student</p>
         </div>
         <span>June 2026 - Present</span>
       </article>
