@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Shuying Cao"
 title_separator          : "-"
 name                     : &name "Shuying Cao"
-description              : &description "Shuying Cao is a Computer Science M.S. student at USC and Visiting Student Researcher at Stanford, studying trustworthy and human-centered AI."
+description              : &description "Shuying Cao is a Computer Science M.S. student at USC and Student Research Assistant at Stanford, working on LLM agents, evaluation, and trustworthy AI."
 url                      : https://ccccsy7.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "CCCCsy7/CCCCsy7.github.io"
@@ -84,7 +84,7 @@ analytics:
 author:
   name             : "Shuying Cao"
   avatar           : "profile-preview.png"
-  bio              : "M.S. Computer Science student at USC and Visiting Student Researcher at Stanford"
+  bio              : "M.S. Computer Science student at USC and Student Research Assistant at Stanford"
   location         : "Palo Alto, CA"
   employer         :
   pubmed           :

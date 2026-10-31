@@ -2,7 +2,7 @@
 layout: home
 permalink: /
 title: "Shuying Cao's Homepage"
-excerpt: "Shuying Cao is a Computer Science M.S. student at USC and Visiting Student Researcher at Stanford, studying trustworthy and human-centered AI."
+excerpt: "Shuying Cao is a Computer Science M.S. student at USC and Student Research Assistant at Stanford, working on LLM agents, evaluation, and trustworthy AI."
 author_profile: false
 redirect_from:
   - /about/
@@ -132,8 +132,10 @@ redirect_from:
   <section class="academic-section" id="news">
     <h2>News</h2>
     <ul class="academic-news">
-      <li><span>Jun 2026</span> Started as a Visiting Student Researcher at Stanford University.</li>
-      <li><span>2025</span> Our work on auditing privacy-preserved in-context learning methods was accepted to ACL 2025 L2M2 Workshop.</li>
+      <li><span>Oct 2026</span> Joined Agents' Last Exam v2 at Berkeley AI Research as a core contributor on the science track.</li>
+      <li><span>2026</span> ContextLeak, our black-box privacy auditing framework for private in-context learning, was accepted to COLM 2026.</li>
+      <li><span>Jun 2026</span> Started as a Student Research Assistant and Visiting Student at Stanford University.</li>
+      <li><span>2025</span> Our work on auditing privacy-preserved in-context learning methods was accepted to the ACL 2025 L2M2 Workshop.</li>
     </ul>
   </section>
 
