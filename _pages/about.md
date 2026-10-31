@@ -133,8 +133,8 @@ redirect_from:
     <h2>News</h2>
     <ul class="academic-news">
       <li><span>Oct 2026</span> Joined Agents' Last Exam v2 at Berkeley AI Research as a core contributor on the science track.</li>
-      <li><span>2026</span> ContextLeak, our black-box privacy auditing framework for private in-context learning, was accepted to COLM 2026.</li>
-      <li><span>Jun 2026</span> Started as a Student Research Assistant and Visiting Student at Stanford University.</li>
+      <li><span>July 2026</span> ContextLeak, our black-box privacy auditing framework for private in-context learning, was accepted to COLM 2026.</li>
+      <li><span>June 2026</span> Started as a Student Research Assistant and Visiting Student at Stanford University.</li>
       <li><span>2025</span> Our work on auditing privacy-preserved in-context learning methods was accepted to the ACL 2025 L2M2 Workshop.</li>
     </ul>
   </section>
@@ -149,7 +149,7 @@ redirect_from:
       <div>
         <h3>ContextLeak: Auditing Leakage in Private In-Context Learning Methods</h3>
         <p class="academic-authors">Jacob Choi*, <strong>Shuying Cao*</strong>, Xingjian Dong*, Amin Banayeeanzade, Wang Bill Zhu, Robin Jia, and Sai Praneeth Karimireddy</p>
-        <p class="academic-venue"><em>arXiv preprint arXiv:2512.16059; ACL 2025 L2M2 Workshop</em></p>
+        <p class="academic-venue"><em>Conference on Language Modeling (COLM) 2026</em></p>
         <p>
           ContextLeak is an empirical auditing framework for measuring information leakage in private in-context learning methods using canary insertion and targeted adversarial queries.
         </p>
@@ -159,6 +159,18 @@ redirect_from:
         </div>
       </div>
     </article>
+
+    <h3 class="academic-subheading">In Preparation</h3>
+    <ul class="academic-pub-list">
+      <li>
+        <strong>NeuroImAgent: An AI Agent for Translating Pathology to Neuroradiology</strong>
+        <span class="academic-authors"><strong>Shuying Cao*</strong>, Yixin Wang*, et al., Yejin Choi, Michael Zeineh</span>
+      </li>
+      <li>
+        <strong>Towards Intent-Aware Language Models</strong>
+        <span class="academic-authors">Lihao Sun, Shan Gao, <strong>Shuying Cao</strong>, et al.</span>
+      </li>
+    </ul>
   </section>
 
   <section class="academic-section" id="projects">

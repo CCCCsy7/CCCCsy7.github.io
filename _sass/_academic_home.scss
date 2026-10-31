@@ -436,6 +436,43 @@
   }
 }
 
+.academic-subheading {
+  margin: 2.2rem 0 0.9rem;
+  color: var(--academic-text);
+  font-family: "Fraunces", $serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.academic-pub-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    padding: 0.85rem 1.1rem;
+    border: 1px solid var(--academic-border);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.76);
+
+    + li {
+      margin-top: 0.7rem;
+    }
+
+    > strong {
+      display: block;
+      margin-bottom: 0.3rem;
+      color: var(--academic-text);
+      font-size: 1rem;
+    }
+
+    .academic-authors {
+      display: block;
+      margin: 0;
+    }
+  }
+}
+
 .academic-timeline {
   display: grid;
   gap: 0.9rem;
