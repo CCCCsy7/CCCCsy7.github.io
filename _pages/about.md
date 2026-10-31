@@ -20,23 +20,16 @@ redirect_from:
         <span>Situated Reliability</span>.
       </h1>
       <p class="academic-tagline">
-        Benchmarks test what models can answer; my work studies how foundation models behave in real contexts - how they
-        infer intent, protect private information, and make reliable choices among valid options.
+        Benchmarks test what models can answer; my work studies how foundation models behave as agents in real
+        environments: whether they can complete long-horizon tasks end to end, protect the private context they are
+        given, and recursively improve themselves through structured memory of their own experience.
       </p>
-      <div class="academic-schools" aria-label="Education">
-        <div class="academic-school">
-          <span class="academic-school__mark">USC</span>
-          <span>M.S. Computer Science, University of Southern California</span>
-        </div>
-        <div class="academic-school">
-          <span class="academic-school__mark">WHU</span>
-          <span>B.Eng. Geodesy and Geomatics Engineering, Wuhan University</span>
-        </div>
-      </div>
       <div class="academic-actions">
         <a class="academic-cv" href="{{ '/files/Shuying_Cao_CV.pdf' | relative_url }}">Curriculum Vitae &rarr;</a>
         <div class="academic-socials">
-          <a href="mailto:shuyingc@stanford.edu" aria-label="Email">Email</a>
+          <a href="mailto:shuyingc@stanford.edu" aria-label="Stanford email">Email (Stanford)</a>
+          <a href="mailto:shuyingcao7@gmail.com" aria-label="Gmail">Email (Gmail)</a>
+          <a href="https://scholar.google.com/citations?user=36r5lAkAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
           <a href="https://github.com/CCCCsy7" target="_blank" rel="noopener noreferrer">GitHub</a>
           <a href="https://www.linkedin.com/in/shuying-cao-0ab112234" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
@@ -91,6 +84,40 @@ redirect_from:
       <article>
         <h3>Human-Centered AI</h3>
         <p>Studying intent, persona, and medical AI agents in human-facing settings.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="academic-section" id="education">
+    <h2>Education</h2>
+    <div class="academic-timeline">
+      <article>
+        <div>
+          <h3>Stanford University</h3>
+          <p>Research Assistant &amp; Visiting Student</p>
+        </div>
+        <span>June 2026 - Present</span>
+      </article>
+      <article>
+        <div>
+          <h3>University of Southern California</h3>
+          <p>M.S. in Computer Science</p>
+        </div>
+        <span>Sept 2024 - Dec 2026 (expected)</span>
+      </article>
+      <article>
+        <div>
+          <h3>UC Berkeley</h3>
+          <p>Visiting Student, SKY Lab</p>
+        </div>
+        <span>Jan 2023 - July 2023</span>
+      </article>
+      <article>
+        <div>
+          <h3>Wuhan University</h3>
+          <p>B.E. in Geodesy and Geomatics Engineering</p>
+        </div>
+        <span>Sept 2020 - June 2024</span>
       </article>
     </div>
   </section>
@@ -169,26 +196,6 @@ redirect_from:
           <p>Visiting student; visual-capable chatbot systems based on instruction-tuned language models.</p>
         </div>
         <span>Jan 2023 - July 2023</span>
-      </article>
-    </div>
-  </section>
-
-  <section class="academic-section">
-    <h2>Education</h2>
-    <div class="academic-timeline">
-      <article>
-        <div>
-          <h3>University of Southern California</h3>
-          <p>M.S. in Computer Science</p>
-        </div>
-        <span>Sept 2024 - Dec 2026</span>
-      </article>
-      <article>
-        <div>
-          <h3>Wuhan University</h3>
-          <p>B.Eng. in Geodesy and Geomatics Engineering</p>
-        </div>
-        <span>Sept 2020 - June 2024</span>
       </article>
     </div>
   </section>
