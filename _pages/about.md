@@ -55,9 +55,7 @@ redirect_from:
         <a href="https://spkreddy.org/" target="_blank" rel="noopener noreferrer"><strong>Prof. Sai Praneeth Karimireddy</strong></a>
         on auditing privacy in LLM systems. I am also a Student Research Assistant and Visiting Student at Stanford
         University, advised by
-        <a href="https://profiles.stanford.edu/michael-zeineh" target="_blank" rel="noopener noreferrer"><strong>Prof. Michael Zeineh</strong></a>
-        and in collaboration with
-        <a href="https://yejinc.github.io/" target="_blank" rel="noopener noreferrer"><strong>Prof. Yejin Choi</strong></a>,
+        <a href="https://profiles.stanford.edu/michael-zeineh" target="_blank" rel="noopener noreferrer"><strong>Prof. Michael Zeineh</strong></a>,
         and a core contributor to Agents' Last Exam v2 at Berkeley AI Research.
       </p>
       <p>
