@@ -1,0 +1,54 @@
+research_interests:
+  title: Research Interests
+  items:
+    - index: "01"
+      title: LLM Agents & Long-Horizon Tasks
+      description: Agents that plan, call tools, and finish multi-step workflows end to end in executable environments.
+    - index: "02"
+      title: Recursive Self-Improvement
+      description: Memory graphs and reusable skills that let an agent learn from its own past cases without losing reliability.
+    - index: "03"
+      title: Trustworthy AI & Privacy Auditing
+      description: Black-box auditing of what models leak from private context, and how empirical leakage compares to theoretical guarantees.
+
+education:
+  title: Education
+  items:
+    - institution: Stanford University
+      description: Student Research Assistant & Visiting Student.
+      date: June 2026 - Present
+    - institution: University of Southern California
+      description: M.S. in Computer Science.
+      date: Sept 2024 - Dec 2026 (expected)
+    - institution: UC Berkeley
+      description: Visiting Student, SKY Lab.
+      date: Jan 2023 - July 2023
+    - institution: Wuhan University
+      description: B.E. in Geodesy and Geomatics Engineering.
+      date: Sept 2020 - June 2024
+
+skills:
+  title: Skills
+  groups:
+    - id: research-areas
+      title: Research Areas
+      items:
+        - Trustworthy AI
+        - privacy auditing
+        - LLM behavior
+        - human-centered AI
+        - medical AI agents
+    - id: methods
+      title: Methods
+      items:
+        - Empirical auditing
+        - canary insertion
+        - targeted adversarial queries
+        - model behavior analysis
+    - id: systems
+      title: Systems
+      items:
+        - Large language models
+        - instruction-tuned systems
+        - visual-capable chatbots
+        - AI persona platforms

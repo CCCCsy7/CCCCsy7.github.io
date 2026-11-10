@@ -1,0 +1,80 @@
+cv:
+  name: Shuying Cao
+  label: Researcher in LLM agents, evaluation, and trustworthy AI
+  email: shuyingc@stanford.edu
+  summary: Shuying Cao is a Computer Science M.S. student at USC and Student Research Assistant at Stanford, working on LLM agents,
+    evaluation, and trustworthy AI.
+  social_networks:
+  - network: GitHub
+    username: CCCCsy7
+  - network: LinkedIn
+    username: shuying-cao-0ab112234
+  sections:
+    Education:
+    - institution: Stanford University
+      studyType: Student Research Assistant & Visiting Student
+      start_date: 2026-06
+      end_date: present
+      highlights:
+      - Advised by Prof. Michael Zeineh.
+    - institution: University of Southern California
+      area: Computer Science
+      studyType: M.S.
+      start_date: 2024-09
+      end_date: 2026-12
+      highlights:
+      - Advised by Prof. Sai Praneeth Karimireddy.
+      - 'Expected graduation: December 2026.'
+    - institution: UC Berkeley
+      studyType: Visiting Student, SKY Lab
+      start_date: 2023-01
+      end_date: 2023-07
+      highlights:
+      - Worked with Prof. Joseph E. Gonzalez and Tianjun Zhang on vision-language assistants for reading figures in research papers.
+    - institution: Wuhan University
+      area: Geodesy and Geomatics Engineering
+      studyType: B.E.
+      start_date: 2020-09
+      end_date: 2024-06
+      highlights:
+      - Advised by Prof. Zhenzhong Chen.
+    Experience:
+    - company: Stanford University
+      position: Student Research Assistant and Visiting Student
+      start_date: 2026-06
+      end_date: present
+      highlights:
+      - Advised by Prof. Michael Zeineh.
+    - company: University of Southern California
+      position: M.S. Computer Science
+      start_date: 2024-09
+      end_date: 2026-12
+    - company: UC Berkeley
+      position: Visiting Student, SKY Lab
+      start_date: 2023-01
+      end_date: 2023-07
+      summary: Worked with Prof. Joseph E. Gonzalez and Tianjun Zhang on vision-language assistants for reading figures in research
+        papers.
+    Skills:
+    - name: Research Areas
+      keywords:
+      - Trustworthy AI
+      - privacy auditing
+      - LLM behavior
+      - human-centered AI
+      - medical AI agents
+    - name: Methods
+      keywords:
+      - Empirical auditing
+      - canary insertion
+      - targeted adversarial queries
+      - model behavior analysis
+    - name: Systems
+      keywords:
+      - Large language models
+      - instruction-tuned systems
+      - visual-capable chatbots
+      - AI persona platforms
+  address:
+    city: Stanford
+    region: CA

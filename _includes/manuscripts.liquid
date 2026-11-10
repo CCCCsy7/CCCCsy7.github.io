@@ -1,0 +1,20 @@
+{% capture owner_name %}{{ site.first_name }} {{ site.last_name }}{% endcapture %}
+{% capture bold_owner_name %}<strong class="font-weight-bold">{{ owner_name | escape }}</strong>{% endcapture %}
+{% assign manuscripts = site.data.manuscripts | where: 'status', include.status %}
+<div class="publications">
+  <ol class="bibliography">
+    {% for manuscript in manuscripts %}
+      <li>
+        <div class="row">
+          <div class="col-sm-10">
+            <div class="title">{{ manuscript.title | escape }}</div>
+            <div class="author">{{ manuscript.authors | escape | replace: owner_name, bold_owner_name }}</div>
+            {% if manuscript.equal_contribution %}
+              <div class="periodical"><em>* Equal contribution</em></div>
+            {% endif %}
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ol>
+</div>

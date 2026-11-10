@@ -1,0 +1,45 @@
+---
+version: 1
+overrides:
+  _includes/footer.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _includes/footer.liquid
+    upstream_sha256: 65219faad5445eb4456649d77921acd07845875bbcad4fb8f33b12b3d52d96d2
+    local_sha256: 0f943dc519ca28fd27cce86294bc49a193927e149f72363577edeca84e1668c2
+    acknowledged_at: '2026-11-10'
+  _includes/header.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _includes/header.liquid
+    upstream_sha256: c8663513baded68d9fa5fbe4d6363a976535bbe201efe5138243d0ff03101058
+    local_sha256: 14b8cd7c2fe888b067c806bb2f906d6e406cf7684529648e3a34e444bfaad9b9
+    acknowledged_at: '2026-11-10'
+  _includes/news.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _includes/news.liquid
+    upstream_sha256: 2a37611539b5b3d59050cc20b8d008ca070e253d953724f6499a422e9b186f63
+    local_sha256: b61ed1fc700e6acd2829c778deac99e5d6aa1337e6e4f8e8ea4ecc82697d4258
+    acknowledged_at: '2026-11-10'
+  _layouts/about.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _layouts/about.liquid
+    upstream_sha256: 2c28eb83b71fe65f252202c11f0b4a19a9b6f1faccdc870b4f91c4ea51d0c6f1
+    local_sha256: 9bcb7d063e0dd4176df2ad2b0fb4fedb01956c6acc42b01a70c30f983502de33
+    acknowledged_at: '2026-11-10'
+  _layouts/bib.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _layouts/bib.liquid
+    upstream_sha256: f3c547969ef76219ca1eb21df09dce5a3daf32a1f491b1586f68e3213fa35f53
+    local_sha256: 1617c7fb744646583f2fa7eb6828a347d70f759e7831727495f9d1d77d8ccc22
+    acknowledged_at: '2026-11-10'
+  _layouts/cv.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _layouts/cv.liquid
+    upstream_sha256: c586e8051e785b492a0f4452c4e06798d47a8c363d29487e48de4fcd9851700e
+    local_sha256: eb203b086488ec97ef32ac367c4f0ba3e5d529a04cbb21607c4d40625b0ef825
+    acknowledged_at: '2026-11-10'

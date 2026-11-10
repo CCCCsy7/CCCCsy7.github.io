@@ -1,0 +1,12 @@
+@inproceedings{choi2025contextleak,
+  title = {ContextLeak: Auditing Leakage in Private In-Context Learning Methods},
+  author = {Choi*, Jacob and Cao*, Shuying and Dong*, Xingjian and Banayeeanzade, Amin and Zhu, Wang Bill and Jia, Robin and Karimireddy, Sai Praneeth},
+  booktitle = {Conference on Language Modeling (COLM)},
+  year = {2026},
+  arxiv = {2512.16059},
+  preview = {contextleak-overview.png},
+  selected = {true},
+  bibtex_show = {true},
+  annotation = {* Equal contribution},
+  abstract = {ContextLeak is an empirical auditing framework for measuring information leakage in private in-context learning methods. The project studies whether sensitive information contained in in-context examples can still be exposed through model outputs, even when privacy-preserving mechanisms or heuristic defenses are applied.<br><br>Our approach uses canary insertion and targeted adversarial queries to probe worst-case leakage behavior. By designing different types of canaries and query strategies, ContextLeak provides a systematic way to evaluate how much private information may be recoverable from model responses under different privacy mechanisms, model families, and task settings.<br><br>We evaluate ContextLeak across both classification and open-ended generation tasks, including private ICL mechanisms with theoretical guarantees and heuristic defenses. The results highlight the gap between theoretical privacy protection and empirical leakage behavior, and show the importance of auditing deployed LLM systems beyond relying only on formal guarantees.}
+}

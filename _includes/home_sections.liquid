@@ -1,0 +1,83 @@
+{% assign home_sections = site.data.home_sections %}
+<div class="home-sections">
+  <section class="home-section" id="research-interests" aria-labelledby="research-interests-title">
+    <header class="home-section__header">
+      <h2 class="home-section-title" id="research-interests-title">{{ home_sections.research_interests.title | escape }}</h2>
+    </header>
+    <div class="research-grid">
+      {% for interest in home_sections.research_interests.items %}
+        <article class="research-card">
+          <span class="research-card__index" aria-hidden="true">{{ interest.index | escape }}</span>
+          <h3>{{ interest.title | escape }}</h3>
+          <p>{{ interest.description | escape }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  {% if page.selected_papers %}
+    <section class="home-section" id="selected-publications" aria-labelledby="selected-publications-title">
+      <header class="home-section__header">
+        <h2 class="home-section-title" id="selected-publications-title">
+          <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
+        </h2>
+      </header>
+      {% include selected_papers.liquid %}
+    </section>
+  {% endif %}
+
+  {% assign in_preparation_manuscripts = site.data.manuscripts | where: 'status', 'In preparation' %}
+  {% if in_preparation_manuscripts.size > 0 %}
+    <section class="home-section" id="in-preparation" aria-labelledby="in-preparation-title">
+      <header class="home-section__header">
+        <h2 class="home-section-title" id="in-preparation-title">In Preparation</h2>
+      </header>
+      {% include manuscripts.liquid status="In preparation" %}
+    </section>
+  {% endif %}
+
+  {% assign under_review_manuscripts = site.data.manuscripts | where: 'status', 'Under review' %}
+  {% if under_review_manuscripts.size > 0 %}
+    <section class="home-section" id="under-review" aria-labelledby="under-review-title">
+      <header class="home-section__header">
+        <h2 class="home-section-title" id="under-review-title">Under Review</h2>
+      </header>
+      {% include manuscripts.liquid status="Under review" %}
+    </section>
+  {% endif %}
+
+  <section class="home-section" id="education" aria-labelledby="education-title">
+    <header class="home-section__header">
+      <h2 class="home-section-title" id="education-title">{{ home_sections.education.title | escape }}</h2>
+    </header>
+    <ol class="education-timeline">
+      {% for entry in home_sections.education.items %}
+        <li class="education-item">
+          <div class="education-item__body">
+            <h3>{{ entry.institution | escape }}</h3>
+            <p>{{ entry.description | escape }}</p>
+          </div>
+          <span class="education-item__date">{{ entry.date | escape }}</span>
+        </li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  <section class="home-section" id="skills" aria-labelledby="skills-title">
+    <header class="home-section__header">
+      <h2 class="home-section-title" id="skills-title">{{ home_sections.skills.title | escape }}</h2>
+    </header>
+    <div class="skills-groups">
+      {% for group in home_sections.skills.groups %}
+        <section class="skills-group" aria-labelledby="skills-{{ group.id }}-title">
+          <h3 id="skills-{{ group.id }}-title">{{ group.title | escape }}</h3>
+          <ul class="skill-tags">
+            {% for skill in group.items %}
+              <li>{{ skill | escape }}</li>
+            {% endfor %}
+          </ul>
+        </section>
+      {% endfor %}
+    </div>
+  </section>
+</div>

@@ -1,0 +1,263 @@
+/* Homepage sections: keep the al-folio palette and typeface. */
+.home-sections {
+  --home-surface: var(--global-card-bg-color, var(--global-bg-color));
+  --home-muted: var(--global-text-color);
+  clear: both;
+  display: flow-root;
+  margin-top: 2.75rem;
+}
+
+@supports (color: color-mix(in srgb, #000 72%, #fff)) {
+  .home-sections {
+    --home-muted: color-mix(in srgb, var(--global-text-color) 72%, var(--global-bg-color));
+  }
+}
+
+.home-sections *,
+.home-sections *::before,
+.home-sections *::after {
+  box-sizing: border-box;
+}
+
+.home-sections .home-section {
+  margin: 0 0 3.25rem;
+  scroll-margin-top: 6rem;
+}
+
+.home-sections .home-section__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.post .home-section-title {
+  margin: 0 0 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.025em;
+}
+
+.post .home-section-title > a {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.home-sections .home-section__header .home-section-title {
+  margin: 0;
+}
+
+.home-sections h3 {
+  margin: 0 0 0.65rem;
+  font-size: 1.05rem;
+  font-weight: 500;
+  line-height: 1.45;
+  letter-spacing: -0.015em;
+}
+
+.home-sections p {
+  margin: 0;
+  font-size: 0.92rem;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.home-sections a:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 5px;
+  border-radius: 2px;
+}
+
+/* Research: three equal, non-interactive cards. */
+.home-sections .research-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.home-sections .research-card {
+  min-width: 0;
+  padding: 1.35rem;
+  border: 1px solid var(--global-divider-color);
+  border-top: 2px solid var(--global-theme-color);
+  border-radius: 4px 4px 10px 10px;
+  background: var(--home-surface);
+}
+
+.home-sections .research-card__index {
+  display: block;
+  margin-bottom: 1.15rem;
+  color: var(--global-theme-color);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  font-variant-numeric: tabular-nums;
+}
+
+.home-sections .research-card p {
+  color: var(--home-muted);
+  font-size: 0.87rem;
+}
+
+/* Education: a continuous timeline with right-aligned dates. */
+.home-sections .education-timeline {
+  margin: 0;
+  padding: 0 0 0 1.5rem;
+  list-style: none;
+}
+
+.home-sections .education-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 0.5rem 1.5rem;
+  margin: 0;
+  padding: 0 0 1.75rem 1.4rem;
+  border-left: 1px solid var(--global-divider-color);
+}
+
+.home-sections .education-item:last-child {
+  padding-bottom: 0;
+  border-left-color: transparent;
+}
+
+.home-sections .education-item::before {
+  position: absolute;
+  top: 0.4rem;
+  left: -5px;
+  width: 9px;
+  height: 9px;
+  border: 2px solid var(--global-theme-color);
+  border-radius: 50%;
+  background: var(--global-bg-color);
+  content: "";
+}
+
+.home-sections .education-item:first-child::before {
+  background: var(--global-theme-color);
+}
+
+.home-sections .education-item h3 {
+  margin-bottom: 0.25rem;
+}
+
+.home-sections .education-item p {
+  color: var(--home-muted);
+  font-size: 0.9rem;
+}
+
+.home-sections .education-item__date {
+  padding-top: 0.15rem;
+  color: var(--home-muted);
+  font-size: 0.82rem;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: right;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Skills: three labeled groups, with plain labels rather than proficiency scores. */
+.home-sections .skills-groups {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.75rem;
+}
+
+.home-sections .skills-group {
+  min-width: 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.home-sections .skills-group h3 {
+  margin-bottom: 1rem;
+  color: var(--home-muted);
+  font-size: 0.72rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.home-sections .skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home-sections .skill-tags li {
+  max-width: 100%;
+  margin: 0;
+  padding: 0.3rem 0.65rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 5px;
+  background: var(--home-surface);
+  font-size: 0.79rem;
+  font-weight: 400;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 760px) {
+  .home-sections .research-grid {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .home-sections .research-card {
+    padding: 1.2rem;
+  }
+
+  .home-sections .research-card__index {
+    margin-bottom: 0.65rem;
+  }
+
+  .home-sections .skills-groups {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .home-sections .skills-group h3 {
+    margin-bottom: 0.75rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .home-sections {
+    margin-top: 2rem;
+  }
+
+  .home-sections .home-section {
+    margin-bottom: 2.5rem;
+  }
+
+  .home-sections .home-section__header {
+    align-items: flex-start;
+  }
+
+  .post .home-section-title {
+    font-size: 1.35rem;
+  }
+
+  .home-sections .education-timeline {
+    padding-left: 0.35rem;
+  }
+
+  .home-sections .education-item {
+    grid-template-columns: 1fr;
+    row-gap: 0.35rem;
+    padding-left: 1.1rem;
+  }
+
+  .home-sections .education-item__date {
+    padding-top: 0;
+    text-align: left;
+    white-space: normal;
+  }
+}

@@ -1,29 +1,32 @@
 ---
-layout: archive
-title: "Publications"
+layout: page
 permalink: /publications/
-author_profile: true
+title: publications
+description: Conference papers and manuscripts in preparation or under review. Asterisks denote equal contribution.
+nav: true
+nav_order: 1
+redirect_from:
+  - /publications/2025-contextleak/
 ---
+
+<!-- _pages/publications.md -->
+
+<!-- Bibsearch Feature -->
+
+{% include bib_search.liquid %}
 
 ## Conference Papers
 
-**ContextLeak: Auditing Leakage in Private In-Context Learning Methods**  
-Jacob Choi&#42;, Shuying Cao&#42;, Xingjian Dong&#42;, Amin Banayeeanzade, Wang Bill Zhu, Robin Jia, and Sai Praneeth Karimireddy  
-<em>&#42;Equal contribution</em>  
-*Conference on Language Modeling (COLM) 2026*  
-[arXiv](https://arxiv.org/abs/2512.16059)
+<div class="publications">
 
-ContextLeak is an empirical auditing framework for measuring information leakage in private in-context learning methods. The project studies whether sensitive information contained in in-context examples can still be exposed through model outputs, even when privacy-preserving mechanisms or heuristic defenses are applied.
+{% bibliography %}
 
-Our approach uses canary insertion and targeted adversarial queries to probe worst-case leakage behavior. By designing different types of canaries and query strategies, ContextLeak provides a systematic way to evaluate how much private information may be recoverable from model responses under different privacy mechanisms, model families, and task settings.
-
-We evaluate ContextLeak across both classification and open-ended generation tasks, including private ICL mechanisms with theoretical guarantees and heuristic defenses. The results highlight the gap between theoretical privacy protection and empirical leakage behavior, and show the importance of auditing deployed LLM systems beyond relying only on formal guarantees.
+</div>
 
 ## In Preparation
 
-**NeuroImAgent: An AI Agent for Translating Pathology to Neuroradiology**  
-Shuying Cao&#42;, Yixin Wang&#42;, et al., Yejin Choi, Michael Zeineh  
-<em>&#42;Equal contribution</em>
+{% include manuscripts.liquid status="In preparation" %}
 
-**Towards Intent-Aware Language Models**  
-Lihao Sun, Shan Gao, Shuying Cao, et al.
+## Under Review
+
+{% include manuscripts.liquid status="Under review" %}

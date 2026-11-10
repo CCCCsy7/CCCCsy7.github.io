@@ -1,31 +1,60 @@
-A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+# Shuying Cao's academic website
 
-I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
+个人学术主页，使用官方 [al-folio](https://github.com/alshedivat/al-folio) v1 模板。主题由 `al_folio_core` 1.0.15 提供；没有混用其他主题，也不包含模板示例论文、项目或博客。
 
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
+## 内容维护
 
-# Instructions
+| 内容 | 文件 |
+| --- | --- |
+| 简介与头像信息 | `_pages/about.md` |
+| 首页研究兴趣、教育与技能 | `_data/home_sections.yml` |
+| 首页板块的排版与顺序 | `_includes/home_sections.liquid`、`assets/css/home-sections.css` |
+| 已发表论文 | `_bibliography/papers.bib` |
+| 准备中与审稿中的论文 | `_data/manuscripts.yml`，用 `status` 区分状态 |
+| 项目 | `_projects/` |
+| 新闻 | `_news/` |
+| 博客 | `_posts/YYYY-MM-DD-title.md` |
+| 网页版 CV | `_data/cv.yml` |
+| PDF CV | `files/Shuying_Cao_CV.pdf` |
+| 社交链接 | `_data/socials.yml` |
+| 姓名、网址及主题功能 | `_config.yml` |
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+添加论文时，在 BibTeX 条目中设置 `selected = {true}` 即可在首页展示。论文预览图放在 `assets/img/publication_preview/`，用 `preview` 字段引用文件名。
 
-See more info at https://academicpages.github.io/
+添加博客时，文件名使用日期加标题，front matter 至少填写 `layout: post`、`title` 和 `date`。目前没有个人博客文章，页面显示空状态。
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
+新闻 `date` 用于排序，`display_date` 保留原信息的日期精度；只知道年份时，不会显示未经确认的具体月日。
 
-1. Clone the repository and made updates as detailed above
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle clean` to clean up the directory (no need to run `--force`)
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+## 本地预览
 
-# Changelog -- bugfixes and enhancements
+使用 Ruby 3.3 或更新版本及 Bundler：
 
-There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
+```sh
+bundle install
+bundle exec jekyll serve
+```
 
-To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/academicpages/academicpages.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
+浏览器打开 `http://localhost:4000`。正式构建：
+
+```sh
+JEKYLL_ENV=production bundle exec jekyll build
+```
+
+## GitHub Pages
+
+仓库地址为 `CCCCsy7/CCCCsy7.github.io`，网站地址为 <https://ccccsy7.github.io>。在仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。推送至 `master` 或 `main` 后，`.github/workflows/deploy.yml` 会构建并发布；Pull Request 只验证构建。
+
+al-folio 使用 GitHub Pages 默认构建不支持的插件，因此需要该 Actions 工作流。
+
+## 主题更新
+
+主题和功能插件的版本固定在 `Gemfile`，实际解析版本记录在 `Gemfile.lock`。升级时先修改版本并运行 `bundle update`，再构建和检查：
+
+```sh
+bundle exec al-folio upgrade audit
+bundle exec al-folio upgrade overrides audit
+```
+
+主题局部覆盖保留了 al-folio 的布局：`news.liquid` 增加 `display_date` 支持；`name.liquid` 及首页、导航、页脚、论文和 CV 的局部覆盖统一将完整姓名加粗。已通过 `.al-folio-overrides.yml` 记录所基于的主题版本。
+
+本次迁移参考官方 starter 提交 `8158dd07b40eda745da47a55a8a711332286dbf5`。

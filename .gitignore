@@ -1,2 +1,8 @@
 _site/
-
+.bundle/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.DS_Store
+vendor/
+al-folio-upgrade-report.md
